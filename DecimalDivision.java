@@ -10,7 +10,7 @@ public class DecimalDivisionExample {
         System.out.print("Enter the denominator: ");
         double denominator = scanner.nextDouble();
 
-        try {
+         try {
             if (denominator == 0) {
                 System.out.println("Division by zero is not allowed.");
             } else {
